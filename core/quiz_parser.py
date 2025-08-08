@@ -109,3 +109,43 @@ class QuizParser:
             questions.append(q_data)
             
         return questions
+
+    def extract_summary_form_data(self) -> Dict[str, Any]:
+        """Trích xuất form data từ trang tóm tắt (summary.php)."""
+        form_data = {}
+        
+        # Tìm form trên trang tóm tắt
+        summary_form = self.soup.find('form')
+        if not isinstance(summary_form, Tag):
+            return {}
+            
+        # Lấy tất cả các thẻ input
+        inputs = summary_form.find_all('input')
+        for input_tag in inputs:
+            if isinstance(input_tag, Tag):
+                name = input_tag.get('name')
+                value = input_tag.get('value', '')
+                input_type = input_tag.get('type')
+
+                if not name:
+                    continue
+                
+                # Lấy tất cả các trường ẩn và submit
+                if input_type in ['hidden', 'submit']:
+                    form_data[name] = value
+                        
+        return form_data
+
+    def find_submit_button(self) -> str:
+        """Tìm nút submit trên trang tóm tắt."""
+        # Tìm tất cả các button và input submit
+        submit_buttons = self.soup.find_all(['button', 'input'], type='submit')
+        
+        for button in submit_buttons:
+            if isinstance(button, Tag):
+                # Kiểm tra text hoặc value của button
+                button_text = button.get_text(strip=True) or button.get('value', '')
+                if any(keyword in button_text.lower() for keyword in ['nộp bài', 'submit', 'finish', 'kết thúc']):
+                    return button.get('name', 'submit')
+        
+        return 'submit'  # Fallback

@@ -153,8 +153,14 @@ def autofill_quiz(client: EhouClient):
             # Xử lý nộp bài cuối cùng từ trang tóm tắt
             summary_html = response.text
             summary_parser = QuizParser(summary_html)
-            final_payload = summary_parser.extract_form_data()
             
+            # Thử phương thức mới cho trang tóm tắt
+            final_payload = summary_parser.extract_summary_form_data()
+            
+            if not final_payload:
+                # Fallback: thử phương thức cũ
+                final_payload = summary_parser.extract_form_data()
+                
             if not final_payload:
                 print("[-] Không thể trích xuất form data từ trang tóm tắt.")
                 print("[-] Có thể trang tóm tắt không có form submit.")
@@ -162,14 +168,23 @@ def autofill_quiz(client: EhouClient):
                 print(f"    {response.url}")
                 break
                 
-            # Đảm bảo có nút submit trong payload
-            if 'submit' not in final_payload:
+            # Tìm nút submit phù hợp
+            submit_button_name = summary_parser.find_submit_button()
+            if submit_button_name and submit_button_name not in final_payload:
+                print(f"[*] Thêm nút submit '{submit_button_name}' vào payload...")
+                final_payload[submit_button_name] = 'Nộp bài và kết thúc'
+            elif 'submit' not in final_payload:
                 print("[*] Thêm nút submit vào payload...")
                 final_payload['submit'] = 'Nộp bài và kết thúc'
                 
             # Tự động nộp bài mà không hỏi người dùng
             print("[*] Đang nộp bài cuối cùng...")
             print(f"[*] Final payload keys: {list(final_payload.keys())[:5]}...")
+            print(f"[*] Submit button name: {submit_button_name}")
+            
+            # Debug: In ra một số thông tin về trang tóm tắt
+            print(f"[*] Summary page title: {summary_parser.soup.find('title').get_text() if summary_parser.soup.find('title') else 'No title'}")
+            
             final_response = client.post_data(settings.EHOU_PROCESS_ATTEMPT_URL, final_payload)
             
             if final_response and "/quiz/review.php" in final_response.url:

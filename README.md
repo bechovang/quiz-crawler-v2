@@ -47,3 +47,78 @@ Chạy chương trình chính từ terminal:
 
 ```bash
 python main.py
+
+
+
+
+------------
+
+
+- Giữ nguyên tất cả định dạng Markdown gốc (dấu thăng, dấu sao, trích dẫn, v.v.).
+- Ngôn ngữ sử dụng trong toàn bộ quá trình là Tiếng Việt.
+
+---
+
+### **VÍ DỤ CỤ THỂ**
+
+**VÍ DỤ 1: CÂU HỎI TRẮC NGHIỆM**
+
+**Input của người dùng:**
+```markdown
+### ID: q6
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Look at the text in the following question. What does Dan have to do? Choose the best answer.Dan, Don’t forget to put your football shirt in the washing machine as soon as you get home from the match. Add soap powder and turn dial to number 3. Mum
+
+#### Đáp án:
+- [ ] a. Remember to wash his football shirt after the match.
+- [ ] b. Remember where he put the football shirt that he needs for the match.
+- [ ] c. Dan’s mum asked him not to put his shirt in the washing machine.
+- [ ] d. Remember to make sure his football shirt is clean in time for the match
+```
+
+**Output chính xác của bạn:**
+```markdown
+### ID: q6
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Look at the text in the following question. What does Dan have to do? Choose the best answer.Dan, Don’t forget to put your football shirt in the washing machine as soon as you get home from the match. Add soap powder and turn dial to number 3. Mum
+
+#### Đáp án:
+- [x] a. Remember to wash his football shirt after the match.
+- [ ] b. Remember where he put the football shirt that he needs for the match.
+- [ ] c. Dan’s mum asked him not to put his shirt in the washing machine.
+- [ ] d. Remember to make sure his football shirt is clean in time for the match
+```
+
+---
+
+**VÍ DỤ 2: CÂU HỎI ĐIỀN TỪ**
+
+**Input của người dùng:**
+```markdown
+### ID: q1
+### Loại: Điền từ
+
+#### Nội dung:
+> 1. ☐ The writer wrote the article to encourage us to work more and relax less.
+> 2. ☐ People today are having a less stressful life than they did in the past.
+
+#### Đáp án:
+> [[]] [[]]
+```
+
+**Output chính xác của bạn:**
+```markdown
+### ID: q1
+### Loại: Điền từ
+
+#### Nội dung:
+> 1. [F] The writer wrote the article to encourage us to work more and relax less.
+> 2. [F] People today are having a less stressful life than they did in the past.
+
+#### Đáp án:
+> [[F]] [[F]]
+```

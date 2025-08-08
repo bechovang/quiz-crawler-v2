@@ -1,14 +1,16 @@
-Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
+# [META] Môn học: EN20.105
+# [META] Tên bài thi: Bài kiểm tra trắc nghiệm 01 - KTTN01
+# [META] URL Attempt: https://learning.ehou.edu.vn/mod/quiz/attempt.php?attempt=14342283
 
 ---
 ### ID: q1
 ### Loại: Điền từ
 
 #### Nội dung:
-> Mô tả câu hỏi Read the text and decide if the following statements are  T (TRUE) or F (FALSE) We’re Living Faster, But Are We Living Better? Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had. But what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything , says that people who live in cities are suffering from ‘hurry sickness’ – we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don’t slow down, we won’t live as long as our parents. For most people, faster doesn’t mean better. 1 No time for the news Newspaper articles today are shorter and the headlines are bigger. Most people don’t have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago. 2 No time for stories In the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for ‘busy parents’ who want to save time! 3 No time to listen Some answerphones now have ‘quick playback’ buttons so that we can re-play people’s messages faster – we can’t waste time listening to people speaking at normal speed. 4 No time to relax Even when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds! 5 No time for slow sports In the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball. 6 ...but more time in our cars The only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won’t arrive on time. Experts predict that in ten years’ time the average speed on the road in cities will be 17 km/h. 1. [F] The writer wrote the article to encourage us to work more and relax less. 2. [F] People today are having a less stressful life than they did in the past. 3. [T] People are too busy to read newspapers. 4. [T] Slow sports have become unpopular. 5. [F] More time is spent on stories.
+> Mô tả câu hỏi Read the text and decide if the following statements are  T (TRUE) or F (FALSE) We’re Living Faster, But Are We Living Better? Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had. But what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything , says that people who live in cities are suffering from ‘hurry sickness’ – we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don’t slow down, we won’t live as long as our parents. For most people, faster doesn’t mean better. 1 No time for the news Newspaper articles today are shorter and the headlines are bigger. Most people don’t have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago. 2 No time for stories In the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for ‘busy parents’ who want to save time! 3 No time to listen Some answerphones now have ‘quick playback’ buttons so that we can re-play people’s messages faster – we can’t waste time listening to people speaking at normal speed. 4 No time to relax Even when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds! 5 No time for slow sports In the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball. 6 ...but more time in our cars The only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won’t arrive on time. Experts predict that in ten years’ time the average speed on the road in cities will be 17 km/h. 1. ☐ The writer wrote the article to encourage us to work more and relax less. 2. ☐ People today are having a less stressful life than they did in the past. 3. ☐ People are too busy to read newspapers. 4. ☐ Slow sports have become unpopular. 5. ☐ More time is spent on stories.
 
 #### Đáp án:
-> [[F]] [[F]] [[T]] [[T]] [[F]]
+> [[]] [[]] [[]] [[]] [[]]
 
 #### Hướng dẫn:
 > Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
@@ -22,7 +24,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 
 #### Đáp án:
 - [ ] a. Unpopular
-- [x] b. Popularity
+- [ ] b. Popularity
 - [ ] c. Popularize
 - [ ] d. Popular
 
@@ -34,7 +36,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 > The……………system in this country is rather complex.
 
 #### Đáp án:
-- [x] a. Education
+- [ ] a. Education
 - [ ] b. Educated
 - [ ] c. Educate
 - [ ] d. educating
@@ -48,7 +50,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 
 #### Đáp án:
 - [ ] a. Unhealthy
-- [x] b. Healthy
+- [ ] b. Healthy
 - [ ] c. Health
 
 ---
@@ -60,7 +62,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 
 #### Đáp án:
 - [ ] a. City taxes pay for new roads.
-- [x] b. We should raise city taxes.
+- [ ] b. We should raise city taxes.
 - [ ] c. City taxes are too high.
 
 ---
@@ -68,10 +70,10 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 ### Loại: Điền từ
 
 #### Nội dung:
-> Mô tả câu hỏi inspire afraid encourage professional climbing accomplishments challenges ambition Complete the conversation with words from the box. Use each word only once. A Did you read the article on Erik Weihenmayer? Isn’t he a fascinating person? B Yes, he really is! Imagine being blind and [climbing] a mountain! A Even for people who can see, climbing a mountain is very difficult. B You know, I was really surprised to learn that he is also a teacher and a [professional] athlete. A People like Erik really [inspire] people all around the world. Did you know that he is not the only person with a disability who has done amazing things? B Yes! I red about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the [accomplishments] she had in her lifetime. A Right! But people who have disabilities are not the only people who face [challenges] We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships. B I agree. Do you think challenges are good for us? A Yes, I do. I think if a person is not [afraid] and has [ambition] then he or she can overcome most of life’s challenges. I believe that challenges make us stronger. B You are right! I think that people like Erik Weihenmayer and Helen Keller really [encourage] others to be brave and face life’s challenges and never give up.
+> Mô tả câu hỏi inspire afraid encourage professional climbing accomplishments challenges ambition Complete the conversation with words from the box. Use each word only once. A Did you read the article on Erik Weihenmayer? Isn’t he a fascinating person? B Yes, he really is! Imagine being blind and ☐ a mountain! A Even for people who can see, climbing a mountain is very difficult. B You know, I was really surprised to learn that he is also a teacher and a ☐ athlete. A People like Erik really ☐ people all around the world. Did you know that he is not the only person with a disability who has done amazing things? B Yes! I red about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the ☐ she had in her lifetime. A Right! But people who have disabilities are not the only people who face ☐ We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships. B I agree. Do you think challenges are good for us? A Yes, I do. I think if a person is not ☐ and has ☐ then he or she can overcome most of life’s challenges. I believe that challenges make us stronger. B You are right! I think that people like Erik Weihenmayer and Helen Keller really ☐ others to be brave and face life’s challenges and never give up.
 
 #### Đáp án:
-> [[climbing]] [[professional]] [[inspire]] [[accomplishments]] [[challenges]] [[afraid]] [[ambition]] [[encourage]]
+> [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]]
 
 #### Hướng dẫn:
 > Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
@@ -85,7 +87,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 
 #### Đáp án:
 - [ ] a. spend all money they have
-- [x] b. improve the working environment and relationships with others
+- [ ] b. improve the working environment and relationships with others
 - [ ] c. help them more famous
 
 ---
@@ -98,7 +100,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. Airplanes have changed our lives.
 - [ ] b. The fax machine was an important invention.
-- [x] c. Advances in technology have made the world seem smaller.
+- [ ] c. Advances in technology have made the world seem smaller.
 
 ---
 ### ID: q9
@@ -108,7 +110,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 > ........................is necessary after hard work.
 
 #### Đáp án:
-- [x] a. Relaxation
+- [ ] a. Relaxation
 - [ ] b. Relaxing
 - [ ] c. Relax
 - [ ] d. Relaxed
@@ -118,10 +120,10 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 ### Loại: Điền từ
 
 #### Nội dung:
-> Mô tả câu hỏi Environment Work Admit Respond ignore invest introduce Manners Avoid improve Fill the gaps with these words from the text A recruitment firm gives this advice to new workers: It is important to [invest] time in your relationships with others at [Work] . Get to know the people who work near you: [introduce] yourself to them and tell them something about yourself. If people ask for your help, always [Respond] positively. Don’t [ignore] emails or phone calls just because you are busy. If you make a mistake, it is better to [Admit] it and then apologise. When things go wrong, stay calm and [Avoid] shouting and using bad language. Remember good [Manners] help to [improve] your working [Environment] , and you will find you can enjoy your work more.
+> Mô tả câu hỏi Environment Work Admit Respond ignore invest introduce Manners Avoid improve Fill the gaps with these words from the text A recruitment firm gives this advice to new workers: It is important to ☐ time in your relationships with others at ☐ . Get to know the people who work near you: ☐ yourself to them and tell them something about yourself. If people ask for your help, always ☐ positively. Don’t ☐ emails or phone calls just because you are busy. If you make a mistake, it is better to ☐ it and then apologise. When things go wrong, stay calm and ☐ shouting and using bad language. Remember good ☐ help to ☐ your working ☐ , and you will find you can enjoy your work more.
 
 #### Đáp án:
-> [[invest]] [[Work]] [[introduce]] [[Respond]] [[ignore]] [[Admit]] [[Avoid]] [[Manners]] [[improve]] [[Environment]]
+> [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]]
 
 #### Hướng dẫn:
 > Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
@@ -136,7 +138,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. Juan asked Maria to buy the guitar
 - [ ] b. Pedro has a guitar which Maria might want to buy.
-- [x] c. Juan will sell Maria his guitar if she wants it.
+- [ ] c. Juan will sell Maria his guitar if she wants it.
 - [ ] d. Juan would prefer to sell his guitar to Pedro.
 
 ---
@@ -150,7 +152,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 - [ ] a. You will receive $6 if your locker key is lost
 - [ ] b. Lost locker keys can be replaced for a charge of $6
 - [ ] c. You cannot collect your locker key until you have paid a $6 deposit.
-- [x] d. We cannot return your $6 deposit if you lose your locker key.
+- [ ] d. We cannot return your $6 deposit if you lose your locker key.
 
 ---
 ### ID: q13
@@ -162,7 +164,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. Today’s English lesson will be beside the laboratory because the teacher is sick
 - [ ] b. The room for English lessons is changing because of the test.
-- [x] c. The usual English teacher cannot attend today’s lesson.
+- [ ] c. The usual English teacher cannot attend today’s lesson.
 - [ ] d. The English class must take their workbooks to the language laboratory.
 
 ---
@@ -175,7 +177,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. To say that Frank’s CD is ready for collection.
 - [ ] b. To suggest Frank comes in later this week.
-- [x] c. To apologise for a mistake with Frank’s order.
+- [ ] c. To apologise for a mistake with Frank’s order.
 - [ ] d. The earliest Frank can get his CD is next Monday.
 
 ---
@@ -186,7 +188,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 > Look at the text in the following question. What is Amanda sorry about? Choose the best answer.Guess who I met on this mountain! My tennis hero! I was breathless because of the climb, so unfortunately couldn’t speak to ask him for a photo of us together.Amanda
 
 #### Đáp án:
-- [x] a. That she didn’t have her photograph taken with her tennis hero.
+- [ ] a. That she didn’t have her photograph taken with her tennis hero.
 - [ ] b. That she didn’t climb the mountain.
 - [ ] c. That she didn’t recognize her tennis hero from his photo.
 - [ ] d. That she couldn’t climb high enough to photograph her tennis hero.
@@ -199,7 +201,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 > Look at the text in the following question. How does Sabrina feel about the Plaza hotel? Choose the best answer.We’re staying at the Plaza hotel. It’s not the hotel we wanted but it doesn’t matter because this one is nearer the beach and I’m spending all my time there.
 
 #### Đáp án:
-- [x] a. She thinks it has an advantage.
+- [ ] a. She thinks it has an advantage.
 - [ ] b. She’s disappointed with it.
 - [ ] c. She wishes it was nearer the beach.
 - [ ] d. She didn’t want to stay there.
@@ -213,7 +215,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 
 #### Đáp án:
 - [ ] a. Show your identity card when asked to do so.
-- [x] b. The company insists office workers carry an identity card
+- [ ] b. The company insists office workers carry an identity card
 - [ ] c. Company security will provide workers with identity cards.
 - [ ] d. Staff identity cards are available at the office.
 
@@ -227,7 +229,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. Snacks are available before the performance.
 - [ ] b. You can drink after the performance.
-- [x] c. You can have a drink during the break.
+- [ ] c. You can have a drink during the break.
 - [ ] d. Help yourself to drinks after the performance.
 
 ---
@@ -240,7 +242,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. To borrow a film from her.
 - [ ] b. To let her know that he’s ill.
-- [x] c. To remind her to do something.
+- [ ] c. To remind her to do something.
 - [ ] d. To give her some details.
 
 ---
@@ -254,7 +256,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 - [ ] a. Doctors can only supply enough medicine for one week at a time.
 - [ ] b. You can use this medicine for more than a week.
 - [ ] c. You cannot keep this medicine for more than seven days.
-- [x] d. Contact your doctor if you wish to continue using this medicine after one week.
+- [ ] d. Contact your doctor if you wish to continue using this medicine after one week.
 
 ---
 ### ID: q21
@@ -266,7 +268,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. Daniel needs his tennis clothes to play in a match tonight.
 - [ ] b. Daniel is going to buy clothes for tennis team photos.
-- [x] c. Daniel is having his photo taken with the tennis team tonight.
+- [ ] c. Daniel is having his photo taken with the tennis team tonight.
 - [ ] d. Daniel is taking a photo of the rest of the tennis team tonight.
 
 ---
@@ -280,7 +282,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 - [ ] a. Some of the pictures in the gallery are reserved.
 - [ ] b. A picture in the gallery costs $25.
 - [ ] c. It costs $25 to show your picture in the gallery.
-- [x] d. We will keep any picture for you if you give us $25.
+- [ ] d. We will keep any picture for you if you give us $25.
 
 ---
 ### ID: q23
@@ -292,7 +294,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 #### Đáp án:
 - [ ] a. Daily sightseeing trips start from the Hotel Maroc.
 - [ ] b. Tourists can buy the sightseeing tickets in the museum.
-- [x] c. People staying at Hotel Maroc can arrange activities through the hotel.
+- [ ] c. People staying at Hotel Maroc can arrange activities through the hotel.
 - [ ] d. Hotel Maroc’s holiday advisor accompanies guests on tours.
 
 ---
@@ -303,7 +305,7 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 > Look at the text in the following question. What does it say? Choose the best answer.GarethThe printer’s not working properly – I’ve put in more ink, but that hasn’t helped. Can you fix it? it must print out my essay tonight!
 
 #### Đáp án:
-- [x] a. Jasmine wants Gareth to repair the printer for her.
+- [ ] a. Jasmine wants Gareth to repair the printer for her.
 - [ ] b. Jasmine wants Gareth to print her essay.
 - [ ] c. Jasmine wants Gareth to bring her some proper ink.
 - [ ] d. Jasmine wants Gareth to help her finish an essay.
@@ -317,6 +319,6 @@ Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
 
 #### Đáp án:
 - [ ] a. Visitors can enter the port without identity cards.
-- [x] b. To visit this area, go to the main entrance for an identity card.
+- [ ] b. To visit this area, go to the main entrance for an identity card.
 - [ ] c. It is essential to bring an identity card to the port.
 - [ ] d. This entrance is to be used only by people with identity cards.
