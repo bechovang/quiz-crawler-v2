@@ -122,6 +122,15 @@ def autofill_quiz(client: EhouClient):
         # Nộp trang và lấy HTML trang tiếp theo
         print(f"[*] Đang submit trang {page_count}...")
         print(f"[*] Payload keys: {list(payload.keys())[:5]}...")  # Debug: in ra một số key của payload
+        
+        # Kiểm tra xem có nút "next" trong payload không
+        if 'next' in payload:
+            print(f"[*] Phát hiện nút 'next' - sẽ chuyển trang")
+        elif 'submit' in payload:
+            print(f"[*] Phát hiện nút 'submit' - sẽ nộp bài")
+        else:
+            print(f"[*] Không tìm thấy nút điều hướng trong payload")
+            
         response = client.post_data(settings.EHOU_PROCESS_ATTEMPT_URL, payload)
         
         if not response:
@@ -139,7 +148,7 @@ def autofill_quiz(client: EhouClient):
             break
             
         elif "/quiz/summary.php" in response.url:
-            print("\n[+] Đã đến trang tóm tắt. Chuẩn bị nộp bài cuối cùng...")
+            print("\n[+] Đã đến trang tóm tắt. Tự động nộp bài cuối cùng...")
             
             # Xử lý nộp bài cuối cùng từ trang tóm tắt
             summary_html = response.text
@@ -153,20 +162,25 @@ def autofill_quiz(client: EhouClient):
                 print(f"    {response.url}")
                 break
                 
-            user_choice = input("[?] Bạn có muốn NỘP BÀI VÀ KẾT THÚC không? (y/n): ").lower()
-            if user_choice == 'y':
-                print("[*] Đang nộp bài cuối cùng...")
-                final_response = client.post_data(settings.EHOU_PROCESS_ATTEMPT_URL, final_payload)
+            # Đảm bảo có nút submit trong payload
+            if 'submit' not in final_payload:
+                print("[*] Thêm nút submit vào payload...")
+                final_payload['submit'] = 'Nộp bài và kết thúc'
                 
-                if final_response and "/quiz/review.php" in final_response.url:
-                    print("\n[SUCCESS] ĐÃ NỘP BÀI THÀNH CÔNG!")
-                    print(f"Trang review: {final_response.url}")
-                else:
-                    print("[-] Nộp bài cuối cùng thất bại.")
-                    if final_response:
-                        print(f"URL response: {final_response.url}")
+            # Tự động nộp bài mà không hỏi người dùng
+            print("[*] Đang nộp bài cuối cùng...")
+            print(f"[*] Final payload keys: {list(final_payload.keys())[:5]}...")
+            final_response = client.post_data(settings.EHOU_PROCESS_ATTEMPT_URL, final_payload)
+            
+            if final_response and "/quiz/review.php" in final_response.url:
+                print("\n[SUCCESS] ĐÃ NỘP BÀI THÀNH CÔNG!")
+                print(f"Trang review: {final_response.url}")
             else:
-                print("[*] Đã hủy nộp bài. Bạn có thể vào link trang tóm tắt để nộp thủ công.")
+                print("[-] Nộp bài cuối cùng thất bại.")
+                if final_response:
+                    print(f"URL response: {final_response.url}")
+                print("[*] Bạn có thể vào link trang tóm tắt để nộp thủ công:")
+                print(f"    {response.url}")
             break # Kết thúc vòng lặp
             
         else:
