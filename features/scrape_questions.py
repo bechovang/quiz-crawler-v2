@@ -142,9 +142,11 @@ def scrape_questions_to_markdown(client: EhouClient):
         page_count += 1
         
     # --- Lưu file ---
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     clean_quiz_name = remove_vietnamese_diacritics(quiz_name)
     safe_filename = re.sub(r'[^a-zA-Z0-9_.-]', '_', clean_quiz_name)
-    output_filename = f"{safe_filename}_CHUA_CO_DAP_AN.md"
+    output_filename = f"{safe_filename}_CHUA_CO_DAP_AN_{timestamp}.md"
     
     try:
         with open(output_filename, 'w', encoding='utf-8') as f:

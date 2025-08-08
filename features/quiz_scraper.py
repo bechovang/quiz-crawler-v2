@@ -115,9 +115,11 @@ def scrape_quiz(client: EhouClient):
             markdown_output += "### Loại: Không xác định\n"
 
     # Chuyển đổi tiếng Việt có dấu thành không dấu trước khi tạo tên file
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     clean_quiz_name = remove_vietnamese_diacritics(quiz_name)
     safe_filename = re.sub(r'[^a-zA-Z0-9_.-]', '_', clean_quiz_name)
-    output_filename = f"{safe_filename}.md"
+    output_filename = f"{safe_filename}_{timestamp}.md"
     
     try:
         with open(output_filename, 'w', encoding='utf-8') as f:

@@ -1,11 +1,16 @@
+# [META] Môn học: EN21.105
+# [META] Tên bài thi: Bài luyện tập trắc nghiệm 04 - LTTN04
+# [META] URL Attempt: https://learning.ehou.edu.vn/mod/quiz/attempt.php?attempt=14342212
+
+---
 ### ID: q1
 ### Loại: Điền từ
 
 #### Nội dung:
-> Mô tả câu hỏi Complete each of the sentences below with the correct form of the adjective. 1. Jeremy is 10 years old. Jenny is 8 years old. Jeremy is (old) [older than] Jenny. 2. The Alps are very high. They are (high) [the highest] mountains in Europe. 3. An ocean is (large) [larger than] a sea. 4. A Rolls Royce costs a lot of money. A Twingo costs less. A Rolls Royce is (expensive) [more expensive than] a Twingo. 5. John's results were high. Fred's were very poor. Fred's results were (low) [lower than] John's. 6. This exercise is not very difficult. It's (easy) [easier than] I expected. 7. The weather is not good today. It's raining. I hope the weather will be (nice) [nicer] next week. 8. People are not very friendly in big cities. They are usually (friendly) [friendlier] in small towns. 9. In the government of a country, the President is (important) [the most important] person. 10. People say that Chinese is (difficult) [more difficult] to learn than English.
+> Mô tả câu hỏi Complete each of the sentences below with the correct form of the adjective. 1. Jeremy is 10 years old. Jenny is 8 years old. Jeremy is (old) ☐ Jenny. 2. The Alps are very high. They are (high) ☐ mountains in Europe. 3. An ocean is (large) ☐ a sea. 4. A Rolls Royce costs a lot of money. A Twingo costs less. A Rolls Royce is (expensive) ☐ a Twingo. 5. John's results were high. Fred's were very poor. Fred's results were (low) ☐ John's. 6. This exercise is not very difficult. It's (easy) ☐ I expected. 7. The weather is not good today. It's raining. I hope the weather will be (nice) ☐ next week. 8. People are not very friendly in big cities. They are usually (friendly) ☐ in small towns. 9. In the government of a country, the President is (important) ☐ person. 10. People say that Chinese is (difficult) ☐ to learn than English.
 
 #### Đáp án:
-> [[older than]] [[the highest]] [[larger than]] [[more expensive than]] [[lower than]] [[easier than]] [[nicer]] [[friendlier]] [[the most important]] [[more difficult]]
+> [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]] [[]]
 
 #### Hướng dẫn:
 > Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
@@ -21,7 +26,7 @@
 - [ ] a. 4321
 - [ ] b. 1234
 - [ ] c. 2341
-- [x] d. 1432
+- [ ] d. 1432
 
 ---
 ### ID: q3
@@ -31,7 +36,7 @@
 > Put the phrases in the correct order to make complete sentences: 1. the publication of 2. came out on the 3. general’s personal diaries 4. the truth only
 
 #### Đáp án:
-- [x] a. 4213
+- [ ] a. 4213
 - [ ] b. 2341
 - [ ] c. 4321
 - [ ] d. 3421
@@ -47,7 +52,7 @@
 - [ ] a. 1324
 - [ ] b. 1234
 - [ ] c. 4231
-- [x] d. 4213
+- [ ] d. 4213
 
 ---
 ### ID: q5
@@ -60,7 +65,7 @@
 - [ ] a. 4132
 - [ ] b. 4231
 - [ ] c. 2134
-- [x] d. 3214
+- [ ] d. 3214
 
 ---
 ### ID: q6
@@ -72,7 +77,7 @@
 #### Đáp án:
 - [ ] a. 1234
 - [ ] b. 2341
-- [x] c. 4213
+- [ ] c. 4213
 - [ ] d. 3421
 
 ---
@@ -86,7 +91,7 @@
 - [ ] a. 3421
 - [ ] b. 2341
 - [ ] c. 1234
-- [x] d. 2413
+- [ ] d. 2413
 
 ---
 ### ID: q8
@@ -98,7 +103,7 @@
 #### Đáp án:
 - [ ] a. 3421
 - [ ] b. 1234
-- [x] c. 1342
+- [ ] c. 1342
 - [ ] d. 2341
 
 ---
@@ -112,7 +117,7 @@
 - [ ] a. 4321
 - [ ] b. 2431
 - [ ] c. 2341
-- [x] d. 3142
+- [ ] d. 3142
 
 ---
 ### ID: q10
@@ -125,4 +130,4 @@
 - [ ] a. 3421
 - [ ] b. 2341
 - [ ] c. 1234
-- [x] d. 3124
+- [ ] d. 3124
