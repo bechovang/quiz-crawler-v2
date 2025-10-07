@@ -1,322 +1,414 @@
-Chào bạn, tôi đã giải xong đề thi. Dưới đây là kết quả.
+Cảm ơn bạn đã cung cấp mã nguồn. Tôi đã hiểu rõ yêu cầu định dạng chính xác mà chương trình của bạn cần để có thể đọc và tự động điền đáp án.
+
+Lỗi không nằm ở định dạng của từng câu, mà là do tôi đã không cung cấp lại toàn bộ file đáp án cho bài kiểm tra cuối cùng bạn gửi (`KTTN01`). Tôi sẽ sửa lại ngay.
+
+Dựa trên mã nguồn `quiz_autofiller.py` bạn cung cấp, đây là những quy tắc định dạng chuẩn mà tôi sẽ tuân thủ nghiêm ngặt từ bây giờ:
+
+1.  **Phân tách câu hỏi**: Mỗi câu hỏi phải được ngăn cách bởi một dòng chứa duy nhất ba dấu gạch ngang (`---`).
+2.  **Định danh câu hỏi (ID)**: Mỗi câu phải có dòng `### ID: q` theo sau là số thứ tự (ví dụ: `q1`, `q2`, ...).
+3.  **Loại câu hỏi**:
+    *   Đối với câu trắc nghiệm, phải có dòng `### Loại: Trắc nghiệm`.
+    *   Đối với câu điền từ, phải có dòng `### Loại: Điền từ`.
+4.  **Định dạng đáp án "Trắc nghiệm"**:
+    *   Đáp án đúng phải được đánh dấu bằng `[x]` hoặc `[X]`.
+    *   Định dạng phải là `- [x] Nội dung đáp án`. Dấu gạch ngang `-`, khoảng trắng, và cặp ngoặc vuông là bắt buộc.
+5.  **Định dạng đáp án "Điền từ"**:
+    *   Mỗi từ hoặc cụm từ cần điền phải được đặt trong **hai cặp ngoặc vuông**, ví dụ: `[[đáp án thứ nhất]] [[đáp án thứ hai]]`.
+
+Dưới đây là đáp án cho bài kiểm tra cuối cùng bạn đã gửi (**Bài kiểm tra trắc nghiệm 01 - KTTN01**), được định dạng lại theo đúng chuẩn mà code của bạn yêu cầu.
+
+---
+
+# [META] Môn học: EG12.247
+# [META] Tên bài thi: Bài kiểm tra trắc nghiệm 01 - KTTN01
+# [META] URL Attempt: https://learning.ehou.edu.vn/mod/quiz/attempt.php?attempt=14915984
 
 ---
 ### ID: q1
-### Loại: Điền từ
+### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Mô tả câu hỏi Read the text and decide if the following statements are  T (TRUE) or F (FALSE) We’re Living Faster, But Are We Living Better? Not long ago people believed that in the future we would work less, have more free time, and be more relaxed. But sadly this has not happened. Today we work harder, work longer hours, and are more stressed than ten years ago. We walk faster, talk faster, and sleep less than previous generations. And although we are obsessed with machines which save us time, we have less free time than our parents and grandparents had. But what is this doing to our health? An American journalist James Gleick in a new book, Faster: the acceleration of just about everything , says that people who live in cities are suffering from ‘hurry sickness’ – we are always trying to do more things in less time. As a result, our lives are more stressful. He says that if we don’t slow down, we won’t live as long as our parents. For most people, faster doesn’t mean better. 1 No time for the news Newspaper articles today are shorter and the headlines are bigger. Most people don’t have enough time to read the articles, they only read the headlines! On TV and the radio, newsreaders speak more quickly than ten years ago. 2 No time for stories In the USA there is a book called One-Minute Bedtime Stories for children. These are shorter versions of traditional stories, specially written for ‘busy parents’ who want to save time! 3 No time to listen Some answerphones now have ‘quick playback’ buttons so that we can re-play people’s messages faster – we can’t waste time listening to people speaking at normal speed. 4 No time to relax Even when we relax we do everything more quickly. Ten years ago when people went to art galleries they spent ten seconds looking at each picture. Today they spend just three seconds! 5 No time for slow sports In the USA the national sport, baseball, is not as popular as before it is a slow game and matches take a long time. Nowadays many people prefer faster and more dynamic sports like basketball. 6 ...but more time in our cars The only thing that is slower than before is the way we drive. Our cars are faster but the traffic is worse so we drive more slowly. We spend more time sitting in our cars, feeling stressed because we are worried that we won’t arrive on time. Experts predict that in ten years’ time the average speed on the road in cities will be 17 km/h. 1. [F] The writer wrote the article to encourage us to work more and relax less. 2. [F] People today are having a less stressful life than they did in the past. 3. [T] People are too busy to read newspapers. 4. [T] Slow sports have become unpopular. 5. [F] More time is spent on stories.
+> Hãy chỉ ra đặc điểm của tin nhắn tức thời?
 
 #### Đáp án:
-> [[F]] [[F]] [[T]] [[T]] [[F]]
-
-#### Hướng dẫn:
-> Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
+- [ ] a. Có thể gửi tin nhắn bảo mật
+- [x] b. Có thể có nhiều thông điệp cùng một lúc, tức thời
+- [ ] c. Có thể gửi tin nhắn sử dụng mã số
+- [ ] d. Có thể lưu trữ hoặc lưu các tin nhắn
 
 ---
 ### ID: q2
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> He took up that sport for its...........................
+> Giáo dục và đào tạo qua internet thường được gọi là…
 
 #### Đáp án:
-- [ ] a. Unpopular
-- [x] b. Popularity
-- [ ] c. Popularize
-- [ ] d. Popular
+- [x] a. Học trực tuyến (e-learning)
+- [ ] b. Kết nối mạng xã hội
+- [ ] c. Giáo dục tại gia đình
+- [ ] d. Phát thanh qua web (podcasting)
 
 ---
 ### ID: q3
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> The……………system in this country is rather complex.
+> Một thiết bị video không tương thích gây ra màn hình của bạn ngừng hoạt động. Làm thế nào bạn có thể khắc phục vấn đề ?
 
 #### Đáp án:
-- [x] a. Education
-- [ ] b. Educated
-- [ ] c. Educate
-- [ ] d. educating
+- [ ] a. Thay thế màn hình
+- [ ] b. Cài đặt lại hệ điều hành
+- [ ] c. Khởi động lại máy tính trong chế độ Gỡ lỗi (Debug Mode)
+- [x] d. Khởi động lại máy tính trong chế độ An toàn (Safe Mode)
 
 ---
 ### ID: q4
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> A……………..diet is one that helps maintain general health.
+> Trong Windows Explorer, muốn tạo thư mục con, ta dùng lệnh nào?
 
 #### Đáp án:
-- [ ] a. Unhealthy
-- [x] b. Healthy
-- [ ] c. Health
+- [ ] a. File -> Properties
+- [ ] b. File -> Create Directory
+- [ ] c. File -> Create Folder
+- [x] d. File -> New -> Folder
 
 ---
 ### ID: q5
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> _________________________________________ First of all, we need money to repair old roads and build new roads. We also need more to pay teachers’ salaries and to pay for services such as trash collection. Finally, more tax money is needed to give financial help to the poor citizens of the city. It is clear that the city will have serious problems if taxes are not raised soon.
+> Trong Windows, làm cách nào để thực hiện việc tính toán đơn giản?
 
 #### Đáp án:
-- [ ] a. City taxes pay for new roads.
-- [x] b. We should raise city taxes.
-- [ ] c. City taxes are too high.
+- [ ] a. Start/Program/Acessories/Wordpad
+- [ ] b. Start/Program/Acessories/Paint
+- [ ] c. Start/Program/Acessories/NotePad
+- [x] d. Start/Program/Acessories/Calculator
 
 ---
 ### ID: q6
-### Loại: Điền từ
+### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Mô tả câu hỏi inspire afraid encourage professional climbing accomplishments challenges ambition Complete the conversation with words from the box. Use each word only once. A Did you read the article on Erik Weihenmayer? Isn’t he a fascinating person? B Yes, he really is! Imagine being blind and [climbing] a mountain! A Even for people who can see, climbing a mountain is very difficult. B You know, I was really surprised to learn that he is also a teacher and a [professional] athlete. A People like Erik really [inspire] people all around the world. Did you know that he is not the only person with a disability who has done amazing things? B Yes! I red about Helen Keller in school. She was blind, deaf, and could not speak. Helen Keller became famous because of all the [accomplishments] she had in her lifetime. A Right! But people who have disabilities are not the only people who face [challenges] We all have difficulties in our lives. We face challenges at home, at work, at school, and in relationships. B I agree. Do you think challenges are good for us? A Yes, I do. I think if a person is not [afraid] and has [ambition] then he or she can overcome most of life’s challenges. I believe that challenges make us stronger. B You are right! I think that people like Erik Weihenmayer and Helen Keller really [encourage] others to be brave and face life’s challenges and never give up.
+> Làm thế nào để xóa bỏ tệp tin?
 
 #### Đáp án:
-> [[climbing]] [[professional]] [[inspire]] [[accomplishments]] [[challenges]] [[afraid]] [[ambition]] [[encourage]]
-
-#### Hướng dẫn:
-> Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
+- [ ] a. nhắp chọn Internet Explorer.
+- [ ] b. mở cửa sổ tìm kiếm tệp tin Search
+- [ ] c. mở cửa sổ Files Manager
+- [x] d. mở cửa sổ My Computer.
 
 ---
 ### ID: q7
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Text 1 Bad manners at work Etiquette is the name we give to the rules for being polite in a social group. Business etiquette is important for people who often have to make new contacts and build relationships in their work. Politeness can also help to improve the working environment for people in the same office. Some cultures and situations are formal, which means that we have to follow rules; other cultures and situations are more informal. Text 2 Office workers “admit being rude” Most office workers say they are rude or bad-mannered at work. Two out of three workers regularly arrive late for meetings, most ignore emails and three out of four use bad language. In a survey of 1,000 workers, two-thirds say that pressure of work is the reason for bad manners. Other common examples of bad office etiquette include ignoring colleagues and answering mobile phone calls during meetings. Using mobile phones in meetings is impolite and distracts others, research by the University of Surrey shows. If you respond to call when speaking to somebody, it means that the phone call is more important than the person, the survey said. If you answer a call during a meeting, it could mean that the meeting is not important. Mr Jacobs, managing director of Office Angels, a recruitment firm say it is easy for people to forget their manners in the working environment, which is often very informal and very busy. Workers can forget proper etiquette such as introducing people at meetings, and this is often bad for working relationships. Psychologist Dr Colin Gill believes that people are not as polite as they were twenty years ago. He said: ‘Courtesy is no longer something that is so much respected in our society.’ People think it is ‘stuffy to be polite or formal.’ Now some organisations are actually investing money in training their junior managers to be polite. Office Angels is encouraging people to arrive on time for meetings, turn off mobile phones and avoid bad manners at work is such a simple thing to do,’ Mr Jacobs says, ‘ and it can have a dramatic impact on improving your working environment and your relationships with others.’
+> Trong MS Word 2013, tổ hợp phím nào dùng để thay thế cho thao tác click vào nút B trên thẻ Home?
 
 #### Đáp án:
-- [ ] a. spend all money they have
-- [x] b. improve the working environment and relationships with others
-- [ ] c. help them more famous
+- [ ] a. Shift+ B
+- [x] b. Ctrl+ B
+- [ ] c. Alt+ C
+- [ ] d. Ctrl+ Shift+ B
 
 ---
 ### ID: q8
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> _________________________________________ . For example, a person can have breakfast in New York, board an airplane, and have dinner in Paris. A businesswoman in London can instantly place an order with a factory in Hong Kong by sending a fax. Furthermore, a schoolboy in Tokyo can turn on a TV and watch a baseball game being played in Los Angeles.
+> Trong MS Word 2013, tổ hợp phím nào dùng để giảm cỡ chữ cho nội dung văn bản?
 
 #### Đáp án:
-- [ ] a. Airplanes have changed our lives.
-- [ ] b. The fax machine was an important invention.
-- [x] c. Advances in technology have made the world seem smaller.
+- [ ] a. Ctrl+]
+- [x] b. Ctrl+ [
+- [ ] c. Ctrl+ >
+- [ ] d. Ctrl+ <
 
 ---
 ### ID: q9
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> ........................is necessary after hard work.
+> Trong soạn thảo Word, muốn định dạng lại kích thước giấy in, ta thực hiện:
 
 #### Đáp án:
-- [x] a. Relaxation
-- [ ] b. Relaxing
-- [ ] c. Relax
-- [ ] d. Relaxed
+- [ ] a. File - Properties
+- [ ] b. File - Print Preview
+- [ ] c. Page Layout - Print
+- [x] d. Page Layout – Size
 
 ---
 ### ID: q10
-### Loại: Điền từ
+### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Mô tả câu hỏi Environment Work Admit Respond ignore invest introduce Manners Avoid improve Fill the gaps with these words from the text A recruitment firm gives this advice to new workers: It is important to [invest] time in your relationships with others at [Work] . Get to know the people who work near you: [introduce] yourself to them and tell them something about yourself. If people ask for your help, always [Respond] positively. Don’t [ignore] emails or phone calls just because you are busy. If you make a mistake, it is better to [Admit] it and then apologise. When things go wrong, stay calm and [Avoid] shouting and using bad language. Remember good [Manners] help to [improve] your working [Environment] , and you will find you can enjoy your work more.
+> Trong soạn thảo văn bản Word, công dụng của tổ hợp phím Ctrl - H là:
 
 #### Đáp án:
-> [[invest]] [[Work]] [[introduce]] [[Respond]] [[ignore]] [[Admit]] [[Avoid]] [[Manners]] [[improve]] [[Environment]]
-
-#### Hướng dẫn:
-> Thay thế ☐ bằng đáp án đúng (T/F hoặc từ phù hợp), giữ nguyên vị trí
+- [ ] a. Lưu tệp văn bản vào đĩa
+- [x] b. Chức năng thay thế trong soạn thảo
+- [ ] c. Tạo tệp văn bản mới
+- [ ] d. Định dạng chữ hoa
 
 ---
 ### ID: q11
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.From: JuanTo: MariaDo you still want to buy my guitar? Pedro wants it too, but you asked me first. Let me know tomorrow at shool.
+> Trong soạn thảo Word 2013, muốn đánh số trang cho văn bản vị trí chân trang, ta thực hiện:
 
 #### Đáp án:
-- [ ] a. Juan asked Maria to buy the guitar
-- [ ] b. Pedro has a guitar which Maria might want to buy.
-- [x] c. Juan will sell Maria his guitar if she wants it.
-- [ ] d. Juan would prefer to sell his guitar to Pedro.
+- [ ] a. Format/Page Numbers
+- [ ] b. Insert/Page Numbers/ Top of Page
+- [x] c. Insert/Page Numbers/ Bottom of Page
+- [ ] d. Insert/Page Numbers/ Page Margins
 
 ---
 ### ID: q12
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.STUDENTS!YOUR $6 DEPOSIT FOR LOCKER KEYS WON’T BE REFUNDED IF KEYS ARE LOST.
+> Trong chế độ tạo bảng (Table) của phần mềm Word, muốn gộp nhiều ô đã chọn thành một ô, ta thực hiện thao tác nào dưới đây?
 
 #### Đáp án:
-- [ ] a. You will receive $6 if your locker key is lost
-- [ ] b. Lost locker keys can be replaced for a charge of $6
-- [ ] c. You cannot collect your locker key until you have paid a $6 deposit.
-- [x] d. We cannot return your $6 deposit if you lose your locker key.
+- [x] a. Layout / Merge Cells
+- [ ] b. Layout / Split Cells
+- [ ] c. Layout / Cells
+- [ ] d. Table / Split Cells
 
 ---
 ### ID: q13
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.Mr Wright’s English lesson today will be in Room 24D beside the language laboratory. He’s off sick, so use the lesson to revise for the test.
+> Trong MS Word 2013, để thực hiện trộn thư theo từng bước được hướng dẫn, bạn vào thực hiện thao tác nào sau đây?
 
 #### Đáp án:
-- [ ] a. Today’s English lesson will be beside the laboratory because the teacher is sick
-- [ ] b. The room for English lessons is changing because of the test.
-- [x] c. The usual English teacher cannot attend today’s lesson.
-- [ ] d. The English class must take their workbooks to the language laboratory.
+- [ ] a. Mailings/Start Mail Merge/Normal Word Document
+- [ ] b. Mailings/Start Mail Merge/Letter
+- [ ] c. Mailings/Start Mail Merge/E-mail Messages
+- [x] d. Mailings/Start Mail Merge/Step by step Mail Merge Wizard
 
 ---
 ### ID: q14
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. Why did the record shop phone? Choose the best answer.Frank, Rabbit Records phoned. The CD you ordered arrived today, but someone sold it. They’re really sorry! They’ve reordered – available next Monday at the latest. Jan
+> Trong MS Word 2013, để thực hiện các chức năng trộn thư, bạn vào thẻ nào sau đây?
 
 #### Đáp án:
-- [ ] a. To say that Frank’s CD is ready for collection.
-- [ ] b. To suggest Frank comes in later this week.
-- [x] c. To apologise for a mistake with Frank’s order.
-- [ ] d. The earliest Frank can get his CD is next Monday.
+- [x] a. Mailings
+- [ ] b. Review
+- [ ] c. View
+- [ ] d. References
 
 ---
 ### ID: q15
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What is Amanda sorry about? Choose the best answer.Guess who I met on this mountain! My tennis hero! I was breathless because of the climb, so unfortunately couldn’t speak to ask him for a photo of us together.Amanda
+> Để thoát ra khỏi Excel, phương án nào sau đây là lựa chọn sai:
 
 #### Đáp án:
-- [x] a. That she didn’t have her photograph taken with her tennis hero.
-- [ ] b. That she didn’t climb the mountain.
-- [ ] c. That she didn’t recognize her tennis hero from his photo.
-- [ ] d. That she couldn’t climb high enough to photograph her tennis hero.
+- [ ] a. Bấm tổ hợp phím Alt-F4
+- [ ] b. Vào File chọn Exit
+- [x] c. Nhấn phím Delete
+- [ ] d. Bấm tổ hợp phím Alt-F-X
 
 ---
 ### ID: q16
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. How does Sabrina feel about the Plaza hotel? Choose the best answer.We’re staying at the Plaza hotel. It’s not the hotel we wanted but it doesn’t matter because this one is nearer the beach and I’m spending all my time there.
+> Một bảng tính worksheet bao gồm:
 
 #### Đáp án:
-- [x] a. She thinks it has an advantage.
-- [ ] b. She’s disappointed with it.
-- [ ] c. She wishes it was nearer the beach.
-- [ ] d. She didn’t want to stay there.
+- [ ] a. 266 cột và 65365 dòng
+- [ ] b. 256 cột và 65365 dòng
+- [x] c. 256 cột và 65536 dòng
+- [ ] d. 265 cột và 65563 dòng
 
 ---
 ### ID: q17
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.Company securityOffice staff must have their identity cards with them at all times
+> Biểu thức sau cho kết quả là bao nhiêu nếu DTB = 9? =If(DTB>=5, "TB",If(DTB>=6.5, "Kha",If(DTB>= 8, "Gioi", "Yeu")))
 
 #### Đáp án:
-- [ ] a. Show your identity card when asked to do so.
-- [x] b. The company insists office workers carry an identity card
-- [ ] c. Company security will provide workers with identity cards.
-- [ ] d. Staff identity cards are available at the office.
+- [ ] a. Kha
+- [ ] b. Yeu
+- [ ] c. Gioi
+- [x] d. TB
 
 ---
 ### ID: q18
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.EVENING PERFORMANCERefreshements are served only during the interval.
+> Trong MS Excel 2013, giả sử vùng giá trị từ A4 đến A20 chứa cột Họ và tên sinh viên. Với yêu cầu bài toán "Tính tổng số lượng sinh viên có trong danh sách" thì công thức sẽ là gì?
 
 #### Đáp án:
-- [ ] a. Snacks are available before the performance.
-- [ ] b. You can drink after the performance.
-- [x] c. You can have a drink during the break.
-- [ ] d. Help yourself to drinks after the performance.
+- [ ] a. =SUM(A4:A20)
+- [x] b. =COUNTA(A4:A20)
+- [ ] c. Tất cả đều sai
+- [ ] d. =COUNT(A4:A20)
 
 ---
 ### ID: q19
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. Why has Kim emailed Sally? Choose the best answer.To: SallyFrom: KimFeeling any better? When you’re back at college, remember to register for the films course. Email me if you want any information.
+> Trong MS Excel 2013, khi cần hiệu chỉnh dữ liệu trong ô đang chọn ta có thể nhấn phím gì?
 
 #### Đáp án:
-- [ ] a. To borrow a film from her.
-- [ ] b. To let her know that he’s ill.
-- [x] c. To remind her to do something.
-- [ ] d. To give her some details.
+- [ ] a. Delete
+- [x] b. F2
+- [ ] c. Enter
+- [ ] d. Esc
 
 ---
 ### ID: q20
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.Do not use this medicine for more than seven days without your doctor’s advice.
+> Khi vào File/Print/Page Setup, chúng ta chọn thẻ Margins để làm gì?
 
 #### Đáp án:
-- [ ] a. Doctors can only supply enough medicine for one week at a time.
-- [ ] b. You can use this medicine for more than a week.
-- [ ] c. You cannot keep this medicine for more than seven days.
-- [x] d. Contact your doctor if you wish to continue using this medicine after one week.
+- [ ] a. Chỉnh cỡ giấy khi in
+- [ ] b. Chỉnh chất lượng in
+- [x] c. Căn chỉnh lề cần in
+- [ ] d. Chỉnh hướng giấy in
 
 ---
 ### ID: q21
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.Mum,The tennis team’s meeting tonight, so I’m taking my tennis clothes for the photo – can’t wait to see myself in it.Daniel
+> Để thiết lập mật khẩu bảo vệ cho văn bản, bạn cần thực hiện thao tác nào sau đây:
 
 #### Đáp án:
-- [ ] a. Daniel needs his tennis clothes to play in a match tonight.
-- [ ] b. Daniel is going to buy clothes for tennis team photos.
-- [x] c. Daniel is having his photo taken with the tennis team tonight.
-- [ ] d. Daniel is taking a photo of the rest of the tennis team tonight.
+- [x] a. File>Info>Protect Document
+- [ ] b. File>Save
+- [ ] c. File>Recent
+- [ ] d. File>Share
 
 ---
 ### ID: q22
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.$25 RESERVES ANY PICTURES IN THE GALLERY
+> Muốn in tất cả các trang trong văn bản trước hết ta làm bằng cách chọn File, chọn Print trong vùng Page range chọn
 
 #### Đáp án:
-- [ ] a. Some of the pictures in the gallery are reserved.
-- [ ] b. A picture in the gallery costs $25.
-- [ ] c. It costs $25 to show your picture in the gallery.
-- [x] d. We will keep any picture for you if you give us $25.
+- [ ] a. Curent page
+- [ ] b. Selection
+- [ ] c. Pages
+- [x] d. All
 
 ---
 ### ID: q23
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.Welcome to Hotel MarocDear GuestOur holiday advisor is available in the lounge every day 8-10 am for booking guided tours, museum/ garden tickets, camel rides.Enjoy your stay!
+> Để làm ẩn một cột hoặc nhiều cột bất kỳ trên bảng tính Excel ta chọn các cột cần làm ẩn, sau đó thực hiện thao tác nào?
 
 #### Đáp án:
-- [ ] a. Daily sightseeing trips start from the Hotel Maroc.
-- [ ] b. Tourists can buy the sightseeing tickets in the museum.
-- [x] c. People staying at Hotel Maroc can arrange activities through the hotel.
-- [ ] d. Hotel Maroc’s holiday advisor accompanies guests on tours.
+- [ ] a. Vào Insert/ Hide & Unhide, chọn Hide Columns
+- [ ] b. Vào View/ Format/ Hide & Unhide, chọn Hide Columns
+- [x] c. Vào Home/ Format/ Hide & Unhide, chọn Hide Columns
+- [ ] d. Vào Data/Format/ Hide & Unhide, chọn Hide Columns
 
 ---
 ### ID: q24
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.GarethThe printer’s not working properly – I’ve put in more ink, but that hasn’t helped. Can you fix it? it must print out my essay tonight!
+> Các thành phần chính trong một bảng tính worksheet gồm?
 
 #### Đáp án:
-- [x] a. Jasmine wants Gareth to repair the printer for her.
-- [ ] b. Jasmine wants Gareth to print her essay.
-- [ ] c. Jasmine wants Gareth to bring her some proper ink.
-- [ ] d. Jasmine wants Gareth to help her finish an essay.
+- [ ] a. vùng
+- [ ] b. cột
+- [ ] c. dòng
+- [x] d. dòng, cột, vùng, trang tính
 
 ---
 ### ID: q25
 ### Loại: Trắc nghiệm
 
 #### Nội dung:
-> Look at the text in the following question. What does it say? Choose the best answer.VISITORS TO THE PORT AREA MUST COLLECT AN IDENTITY CARD AT THE MAIN GATE.
+> Hàm nào trong các hàm sau đây là hàm cho độ dài của chuỗi TEXT ?
 
 #### Đáp án:
-- [ ] a. Visitors can enter the port without identity cards.
-- [x] b. To visit this area, go to the main entrance for an identity card.
-- [ ] c. It is essential to bring an identity card to the port.
-- [ ] d. This entrance is to be used only by people with identity cards.
+- [ ] a. LOWER(TEXT)
+- [ ] b. UPPER(TEXT)
+- [x] c. LEN(TEXT )
+- [ ] d. PROPER(TEXT)
+
+---
+### ID: q26
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Trong Excel, giả sử ô A1 của bảng tính lưu trị ngày 15/10/1970. Kết quả hàm =YEAR(A1) là bao nhiêu?
+
+#### Đáp án:
+- [ ] a. 15
+- [ ] b. 10
+- [ ] c. VALUE#?
+- [x] d. 1970
+
+---
+### ID: q27
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Phương án nào sau đây không phải là một kiểu biểu đồ trong Excel 2013?
+
+#### Đáp án:
+- [ ] a. Line
+- [ ] b. Column
+- [x] c. Circle
+- [ ] d. Pie
+
+---
+### ID: q28
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Trong MS Excel 2013, khi nhập dữ liệu thì giá trị nào sau đây được hiểu là dữ liệu dạng chuỗi?
+
+#### Đáp án:
+- [ ] a. 31/04/2009
+- [ ] b. -567
+- [x] c. ‘0001
+- [ ] d. 1000
+
+---
+### ID: q29
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Khi muốn lặp lại tiêu đề cột ở mỗi trang in, chúng ta cần thực hiện?
+
+#### Đáp án:
+- [ ] a. Vào File/Print/Page Setup, chọn thẻ Sheet, tích vào mục Gridlines
+- [x] b. Vào File/Print/Page Setup, chọn thẻ Sheet, tích vào mục Row to repeat at top
+- [ ] c. Trong Excel luôn mặc định sẵn khi in lặp lại tiêu đề
+- [ ] d. Vào File/Print/Page Setup, chọn thẻ Sheet, tích vào mục Row and column headings
+
+---
+### ID: q30
+### Loại: Trắc nghiệm
+
+#### Nội dung:
+> Ta có thể ấn định số Sheet mặc định trong một Workbook, bằng cách:
+
+#### Đáp án:
+- [ ] a. File/Options/Advanced, thay đổi số Sheet mặc định trong ô Include this many sheets
+- [x] b. File/Options/General, thay đổi số Sheet mặc định trong ô Include this many sheets
+- [ ] c. File/Options/View, thay đổi số Sheet mặc định trong ô Include this many sheets
+- [ ] d. File/Options/Formulas, thay đổi số Sheet mặc định trong ô Include this many sheetsulas, thay đổi số Sheet mặc định trong ô Include this many sheets

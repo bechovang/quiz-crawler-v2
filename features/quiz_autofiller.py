@@ -18,12 +18,14 @@ def parse_markdown_answers(filepath: str) -> dict:
     question_blocks = content.split('---')
 
     for block in question_blocks:
-        if not block.strip(): continue
+        if not block.strip(): 
+            continue
 
-        id_match = re.search(r'### ID: (q\d+)', block)
-        type_match = re.search(r'### Loại: (Trắc nghiệm|Điền từ)', block)
+        id_match = re.search(r'### ID:\s*(q\d+)', block)
+        type_match = re.search(r'### Loại:\s*(Trắc nghiệm|Điền từ)', block)
 
-        if not (id_match and type_match): continue
+        if not (id_match and type_match): 
+            continue
         
         q_id = id_match.group(1)
         q_type = type_match.group(1)
@@ -31,15 +33,23 @@ def parse_markdown_answers(filepath: str) -> dict:
         solution = {'type': q_type}
 
         if q_type == 'Trắc nghiệm':
-            correct_answer_match = re.search(r'-\s*\[x\]\s*(.*)', block)
+            # Cải thiện regex để bắt cả [x] và [X], và xử lý nhiều định dạng
+            correct_answer_match = re.search(r'-\s*\[[xX]\]\s*(.*?)(?:\n|$)', block, re.IGNORECASE)
             if correct_answer_match:
-                solution['answer'] = correct_answer_match.group(1).strip()
+                answer_text = correct_answer_match.group(1).strip()
+                solution['answer'] = answer_text
+            else:
+                # Thử tìm với định dạng khác (có thể có nhiều khoảng trắng)
+                alt_match = re.search(r'[-•]\s*\[\s*[xX]\s*\]\s*(.*?)(?:\n|$)', block)
+                if alt_match:
+                    answer_text = alt_match.group(1).strip()
+                    solution['answer'] = answer_text
         
         elif q_type == 'Điền từ':
             content_match = re.search(r'#### Nội dung:\s*>\s*(.*)', block, re.DOTALL)
             if content_match:
                 # Tìm đáp án từ phần #### Đáp án:
-                answer_match = re.search(r'#### Đáp án:\s*>\s*(.*?)(?:\n|$)', block, re.DOTALL)
+                answer_match = re.search(r'#### Đáp án:\s*>\s*(.*?)(?:\n####|\n---|\Z)', block, re.DOTALL)
                 if answer_match:
                     # Tách các đáp án từ format [[]] [[]] [[]]
                     answers_text = answer_match.group(1).strip()

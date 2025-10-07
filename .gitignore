@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mode 5 temporary files (overwritten each run)
+MODE5_CAU_HOI.md
+MODE5_DAP_AN.md
+
+# User-specific quiz files (keep these in repo if needed)
+# Uncomment to ignore:
+# *_CHUA_CO_DAP_AN_*.md
+# *_CAU_HOI_*.md
+# *_DAP_AN_*.md
+
